@@ -1,0 +1,23 @@
+#copyright {
+   display: inline;
+   margin: auto;
+}
+
+section {
+   background-color: var(--dark-background);
+   display: flex;
+   color: var(--white)
+}
+
+#logo-alpha {
+   opacity: 0.2;
+   position: fixed;
+   z-index: 1;
+   bottom: 28px;
+   right: 10px;
+   height: 60px;
+}
+
+footer svg {
+   box-sizing: content-box;
+}

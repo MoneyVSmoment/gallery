@@ -1,0 +1,39 @@
+.row {
+   display: -ms-flexbox; /* IE10 */
+   display: flex;
+   -ms-flex-wrap: wrap; /* IE10 */
+   flex-wrap: wrap;
+}
+
+.col, .column, .col-4 {
+   -ms-flex: 25%; /* IE10 */
+   flex: 25%;
+   max-width: 25%;
+   padding: 0 2px;
+}
+
+
+@media only screen and (max-width: 1000px) {
+   .column {
+      -ms-flex: 33.333%;
+      flex: 33.333%;
+      max-width: 33.333%;
+   }
+
+}
+
+@media only screen and (max-width: 800px) {
+   .column, .col-4 {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+   }
+}
+
+@media only screen and (max-width: 600px) {
+   .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+   }
+}
